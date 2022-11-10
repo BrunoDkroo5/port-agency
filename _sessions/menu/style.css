@@ -1,0 +1,88 @@
+header {
+  background-color: var(--backgraund-color);
+}
+header h2 strong {
+  color: #f55f1d;
+}
+
+.menu-background {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.menu-mobile {
+  display: none;
+  width: 40px;
+  height: 40px;
+  border: 0;
+  background-color: transparent;
+}
+.menu-mobile hr {
+  padding: 2px;
+  background-color: black;
+  border: 0;
+  margin-top: 7px;
+  border-radius: 2px;
+}
+
+nav {
+  width: 600px;
+}
+
+ul {
+  margin-top: 28px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+li {
+  list-style-type: none;
+}
+
+li a {
+  color: black;
+  text-decoration: none;
+}
+
+ul button {
+  width: 105px;
+  height: 44px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn1 {
+  color: black;
+  border-color: var(--backgraund-button);
+  border: 1px 1px;
+  background-color: transparent;
+}
+
+.btn2 {
+  background: var(--backgraund-button);
+  border: 0;
+}
+
+.btn2 a {
+  color: white;
+}
+
+@media screen and (max-width: 1300px) {
+  header {
+    padding: 30px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .menu-background nav {
+    display: none;
+  }
+  .menu-mobile {
+    display: block;
+  }
+}/*# sourceMappingURL=style.css.map */
