@@ -36,6 +36,7 @@
 }
 .image-fundo-girl img {
   margin-bottom: -7px;
+  margin-left: 100px;
 }
 
 @media screen and (max-width: 1300px) {
@@ -58,5 +59,23 @@
   }
   .image-fundo-girl {
     margin: 0 auto;
+  }
+}
+@media screen and (max-width: 700px) {
+  .image-fundo-girl img {
+    width: 400px;
+    height: 300px;
+    margin-left: -20px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .image-fundo-girl img {
+    width: 300px;
+    height: 200px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .text-center {
+    font-size: 23px;
   }
 }/*# sourceMappingURL=style.css.map */
