@@ -9,4 +9,23 @@
 .background-small {
   background-color: var(--backgraund-color);
   height: 34px;
+}
+
+@media screen and (max-width: 800px) {
+  .logos {
+    padding: 20px;
+  }
+  .logos img {
+    width: 80px;
+    height: 18px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .logos {
+    padding: 20px;
+  }
+  .logos img {
+    width: 60px;
+    height: 10px;
+  }
 }/*# sourceMappingURL=style.css.map */
