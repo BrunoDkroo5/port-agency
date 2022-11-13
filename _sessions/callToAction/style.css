@@ -65,7 +65,6 @@
   .image-fundo-girl img {
     width: 400px;
     height: 300px;
-    margin-left: -20px;
   }
 }
 @media screen and (max-width: 500px) {
@@ -77,5 +76,8 @@
 @media screen and (max-width: 400px) {
   .text-center {
     font-size: 23px;
+  }
+  .image-fundo-girl img {
+    margin-left: -5px;
   }
 }/*# sourceMappingURL=style.css.map */
