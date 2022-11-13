@@ -1,0 +1,155 @@
+.container1 {
+  h1 {
+    margin-top: 24px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+
+    color: #000000;
+  }
+  h3 {
+    margin-top: 78px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+
+    color: #20b15a;
+  }
+}
+.portifolios {
+  display: flex;
+  justify-content: space-between;
+}
+.port1 {
+  width: 561px;
+  h2 {
+    margin-top: 42px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22.8203px;
+    line-height: 34px;
+
+    color: #000000;
+  }
+  p {
+    margin-top: 14px;
+    font-family: "Avenir";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.2136px;
+    line-height: 21px;
+
+    color: #000000;
+  }
+}
+.port1:nth-last-child(2) {
+  img {
+    margin-top: 98px;
+  }
+}
+.port2 {
+  width: 561px;
+  h2 {
+    margin-top: 42px;
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22.8203px;
+    line-height: 34px;
+
+    color: #000000;
+  }
+  p {
+    margin-top: 14px;
+
+    font-family: "Avenir";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.2136px;
+    line-height: 21px;
+
+    color: #000000;
+  }
+}
+.port2:nth-last-child(1) {
+  img {
+    margin-top: 98px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .container1 {
+    padding: 20px;
+  }
+}
+@media screen and (max-width: 1180px) {
+  .container1 {
+    h1 {
+      text-align: center;
+    }
+    h3 {
+      text-align: center;
+    }
+  }
+  .portifolios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 600px) {
+  .portifolios {
+    img {
+      width: 500px;
+      height: 400px;
+    }
+  }
+  .port1 {
+    width: 500px;
+  }
+  .port2 {
+    width: 500px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .portifolios {
+    img {
+      width: 400px;
+      height: 300px;
+    }
+  }
+  .port1 {
+    width: 400px;
+  }
+  .port2 {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 410px) {
+  .container1 {
+    h1 {
+      font-size: 17px;
+    }
+    h3 {
+      font-size: 16px;
+    }
+  }
+  .portifolios {
+    img {
+      width: 300px;
+      height: 200px;
+    }
+  }
+  .port1 {
+    width: 300px;
+  }
+  .port2 {
+    width: 300px;
+  }
+}
