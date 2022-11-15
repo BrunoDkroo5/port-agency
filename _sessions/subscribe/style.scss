@@ -1,0 +1,83 @@
+.container3 {
+  h3 {
+    margin-top: 200px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+
+    text-transform: uppercase;
+
+    color: #20b15a;
+  }
+  h1 {
+    margin-top: 22px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #000000;
+  }
+  p {
+    margin-top: 5px;
+
+    font-family: "Avenir";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #8b8b8b;
+  }
+}
+.subscribe{
+    margin-top: 40px;
+}
+.box-subs {
+  width: 596px;
+  height: 62px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border: 1px solid #000000;
+  border-radius: 14px;
+  padding: 5px;
+
+ 
+  margin: 0 auto;
+  button {
+    width: 130.65px;
+    height: 52.7px;
+
+    background: #f55f1d;
+    border-radius: 14px;
+    border: 0;
+    color: white;
+
+    cursor: pointer;
+  }
+  p{
+    margin-left: 5px;
+  }
+}
+@media screen and (max-width:600px){
+    .box-subs{
+        width: 360px;
+    }
+  .container3{
+    h3{
+        margin-top: 10px;
+    }
+  }
+}
