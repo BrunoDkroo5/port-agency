@@ -1,0 +1,92 @@
+footer {
+  height: 441px;
+  background-color: #00ca72;
+  margin-top: 160px;
+}
+.rodape {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+.web-logo {
+  h1 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 39.2px;
+    line-height: 59px;
+
+    color: #000000;
+  }
+  p {
+    margin-top: 19px;
+    font-family: "Avenir";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #000000;
+  }
+  span {
+    img {
+      margin-top: 20px;
+      margin-right: 10px;
+    }
+  }
+  h3 {
+    margin-top: 88px;
+    font-family: "Avenir";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #000000;
+  }
+}
+.quick-links {
+    margin-top: 15px;
+  h2 {
+    margin-bottom: 16px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #000000;
+  }
+  a {
+    text-decoration: none;
+    font-family: "Avenir";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 50px;
+    color: #000000;
+  }
+}
+.address {
+    margin-top: 15px;
+  h2 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  p{
+    margin-top: 26px;
+  }
+}
+@media screen and (max-width: 800px){
+    .rodape{
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      background-color: #00ca72;
+      text-align: center;
+       
+    }
+}
