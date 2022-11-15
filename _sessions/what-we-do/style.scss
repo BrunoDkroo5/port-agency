@@ -41,6 +41,30 @@
   a {
     text-decoration: none;
   }
+  button{
+    width: 159px;
+    height: 55px;
+    margin-top: 43px;
+    font-family: "Avenir";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: black;
+   
+    background: white;
+    border-radius: 10px;
+    border: 0;
+
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  button:hover{
+   
+    background-color: #F55F1D;
+    color: white;
+    
+  }
 }
 .cards2 {
   display: flex;
